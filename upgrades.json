@@ -5,7 +5,7 @@
     "price": 24,
     "currency": "coins",
     "location": "-949,50,-4255",
-    "requires": []
+    "requires": ["!greed"]
   },
   "economics_room": {
     "display": "Economics Room",
@@ -13,7 +13,7 @@
     "price": 10,
     "currency": "coins",
     "location": "-935,51,-4238",
-    "requires": []
+    "requires": ["!greed", "!conquest"]
   },
   "faster_coin_generation": {
     "display": "Faster Coin Generation",
@@ -36,7 +36,7 @@
     "description": "Boosts the guard limit by 1.",
     "price": 15,
     "currency": "coins",
-    "location": "-932,51,-4248",
+    "location": "-932,51-4248",
     "requires": ["economics_room"]
   },
   "hearth": {
@@ -53,7 +53,7 @@
     "price": 16,
     "currency": "coins",
     "location": "-938,51,-4248",
-    "requires": []
+    "requires": ["!greed", "!conquest"]
   },
   "personal_greenhouse": {
     "display": "Personal Greenhouse",
@@ -61,7 +61,7 @@
     "price": 16,
     "currency": "coins",
     "location": "-943,51,-4240",
-    "requires": ["private_merchant"]
+    "requires": ["!greed", "!conquest"]
   },
   "stronger_front_door": {
     "display": "Stronger Front Door",
@@ -81,11 +81,35 @@
   },
   "castle_roof": {
     "display": "Castle Roof",
-    "description": "TODO",
+    "description": "Adds a roof to all rooms of the castle.",
     "price": 6,
     "currency": "coins",
     "location": "-937,51,-4228",
     "requires": ["!castle_ladder"]
+  },
+  "better_jailors": {
+	"display": "Better Jailors"
+	"description": "Jail time increased by 5 seconds, and jail cooldown decreased by 5 seconds.",
+	"price": 12,
+	"currency": "coins",
+	"location": "-968,50,-4251",
+	"requires": ["!conquest"]
+  },
+  "lock_and_key": {
+	"display": "Lock And Key"
+	"description": "Guards can now toggle auto-jailing players they hit if possible.",
+	"price": 50,
+	"currency": "coins",
+	"location": "-967,51,-4255",
+	"requires": []
+  },
+  "item_removal_procedures": {
+	"display": "Item Removal Procedures"
+	"description": "More items are removed by jailing players.",
+	"price": 160,
+	"currency": "coins",
+	"location": "-966,51,-4255",
+	"requires": []
   },
   "castle_backyard": {
     "display": "Castle Backyard",
@@ -93,7 +117,7 @@
     "price": 12,
     "currency": "coins",
     "location": "-938,51,-4226",
-    "requires": []
+    "requires": ["!greed", "!conquest"]
   },
   "castle_basement": {
     "display": "Castle Basement",
@@ -111,5 +135,14 @@
     "currency": "coins",
     "location": "-933,46,-4223",
     "requires": ["castle_basement"]
-  }
+  },
+  "religion_start": {
+    "path": "religion",
+    "display": "To The Victor Goes The Spoils",
+    "description": "Opens an area behind the farm with 8 new upgrades. Awakens the melon god.",
+    "price": 65,
+    "currency": "coins",
+    "location": "-926,51,-4257",
+    "requires": []
+  },
 }
