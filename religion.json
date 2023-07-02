@@ -38,5 +38,29 @@
     "currency": "coins",
     "location": "-901,47,-4258",
     "requires": ["religion_start"]
+  },
+  "plentiful_prizes": {
+    "display": "Plentiful Prizes",
+    "description": "Gain 3 additional coins from blessings.",
+    "price": 55,
+    "currency": "coins",
+    "location": "-911,48,-4249",
+    "requires": ["religion_start"]
+  },
+  "forgiving_gods": {
+    "display": "Forgiving Gods",
+    "description": "Slightly decreases the threshold at which you get punished, and decreases the time between blessings.",
+    "price": 35,
+    "currency": "coins",
+    "location": "-914,48,-4249",
+    "requires": ["religion_start"]
+  },
+  "harness_the_spirits": {
+    "display": "Harness The Spirits",
+    "description": "Unlocks an additional shop to spend further favors.",
+    "price": 3,
+    "currency": "favors",
+    "location": "-903,48,-4249",
+    "requires": ["religion_start"]
   }
 }

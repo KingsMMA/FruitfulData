@@ -36,7 +36,7 @@
     "description": "Boosts the guard limit by 1.",
     "price": 15,
     "currency": "coins",
-    "location": "-932,51-4248",
+    "location": "-932,51,-4248",
     "requires": ["economics_room"]
   },
   "hearth": {
@@ -88,7 +88,7 @@
     "requires": ["!castle_ladder"]
   },
   "better_jailors": {
-	"display": "Better Jailors"
+	"display": "Better Jailors",
 	"description": "Jail time increased by 5 seconds, and jail cooldown decreased by 5 seconds.",
 	"price": 12,
 	"currency": "coins",
@@ -96,7 +96,7 @@
 	"requires": ["!conquest"]
   },
   "lock_and_key": {
-	"display": "Lock And Key"
+	"display": "Lock And Key",
 	"description": "Guards can now toggle auto-jailing players they hit if possible.",
 	"price": 50,
 	"currency": "coins",
@@ -104,7 +104,7 @@
 	"requires": []
   },
   "item_removal_procedures": {
-	"display": "Item Removal Procedures"
+	"display": "Item Removal Procedures",
 	"description": "More items are removed by jailing players.",
 	"price": 160,
 	"currency": "coins",
@@ -144,5 +144,5 @@
     "currency": "coins",
     "location": "-926,51,-4257",
     "requires": []
-  },
+  }
 }
