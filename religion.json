@@ -1,0 +1,66 @@
+{
+  "special_delivery": {
+    "display": "Special Delivery",
+    "description": "Gain significant speed while inside the church.",
+    "price": 24,
+    "currency": "coins",
+    "location": "-914,48,-4265",
+    "requires": ["religion_start"]
+  },
+  "for_your_convenience": {
+    "display": "For Your Convenience",
+    "description": "Places a furnace in front of the altar.",
+    "price": 15,
+    "currency": "coins",
+    "location": "-911,48,-4265",
+    "requires": ["religion_start"]
+  },
+  "saving_grace": {
+    "display": "Saving Grace",
+    "description": "Opens a farm near the altar that activates when appeasement is low, and increases farm speed by 50%.",
+    "price": 30,
+    "currency": "coins",
+    "location": "-903,48,-4265",
+    "requires": ["religion_start"]
+  },
+  "devotion": {
+    "display": "Devotion",
+    "description": "Makes the melon god's appeasement decay twice as slowly.",
+    "price": 15,
+    "currency": "coins",
+    "location": "-901,47,-4258",
+    "requires": ["religion_start"]
+  },
+  "bountiful_harvest": {
+    "display": "Devotion",
+    "description": "Makes the melon god's appeasement decay twice as slowly.",
+    "price": 15,
+    "currency": "coins",
+    "location": "-901,47,-4258",
+    "requires": ["religion_start"]
+  },
+  "plentiful_prizes": {
+    "display": "Plentiful Prizes",
+    "description": "Gain 3 additional coins from blessings.",
+    "price": 55,
+    "currency": "coins",
+    "location": "-911,48,-4249",
+    "requires": ["religion_start"]
+  },
+  "forgiving_gods": {
+    "display": "Forgiving Gods",
+    "description": "Slightly decreases the threshold at which you get punished, and decreases the time between blessings.",
+    "price": 35,
+    "currency": "coins",
+    "location": "-914,48,-4249",
+    "requires": ["religion_start"]
+  },
+  "harness_the_spirits": {
+    "display": "Harness The Spirits",
+    "description": "Unlocks an additional shop to spend further favors.",
+    "price": 3,
+    "currency": "favors",
+    "location": "-903,48,-4249",
+    "requires": ["religion_start"]
+  }
+}
