@@ -1,0 +1,76 @@
+{
+  "upgrades": {
+    "press_the_button": {
+      "display": "Press The Button",
+      "description": "The button has been pressed.",
+      "price": 0,
+      "currency": "coins",
+      "location": "-963,45,-4262",
+      "requires": ["true_urban_start"]
+    },
+    "overclock_teleporter": {
+      "display": "Overclock Teleporter",
+      "description": "Powering the teleporter will now give it three charges.",
+      "price": 75,
+      "currency": "coins",
+      "location": "-933,46,-4237",
+      "requires": ["press_the_button"]
+    },
+    "strict_trade_laws": {
+      "display": "Strict Trade Laws",
+      "description": "Slows down the speed of imports by 50%, caps them at 30, and makes them 50% less likely to contain contraband.",
+      "price": 75,
+      "currency": "coins",
+      "location": "-932,46,-4237",
+      "requires": ["press_the_button"]
+    },
+    "bigger_bunker": {
+      "display": "Bigger Bunker",
+      "description": "Expands the underground bunker, also adding another area to get upgrades in.",
+      "price": 75,
+      "currency": "coins",
+      "location": "-931,46,-4237",
+      "requires": ["press_the_button"]
+    },
+    "load_cannons": {
+      "display": "Load Cannons",
+      "description": "Adds a button to the bunker that lets the king fire an aerial cannon.",
+      "price": 50,
+      "currency": "coins",
+      "location": "-942,46,-4227",
+      "requires": ["bigger_bunker"]
+    },
+    "floating_islands": {
+      "display": "Floating Islands",
+      "description": "Adds 4 floating islands and a launchpad on one of the houses, adding 3 new areas to get upgrades in.",
+      "price": 350,
+      "currency": "coins",
+      "location": "-942,46,-4237",
+      "requires": ["bigger_bunker"]
+    },
+    "faster_selling": {
+      "display": "Faster Selling",
+      "description": "Allows players to sneak while selling to quintuple speed.",
+      "price": 150,
+      "currency": "coins",
+      "location": "TODO",
+      "requires": ["floating_islands"]
+    },
+    "morale_boost": {
+      "display": "Morale Boost",
+      "description": "Increases everyone's speed by 20%.",
+      "price": 200,
+      "currency": "coins",
+      "location": "TODO",
+      "requires": ["floating_islands"]
+    },
+    "lower_shipping_taxes": {
+      "display": "Lower Shipping Taxes",
+      "description": "Increases the melon sell price by 0.3.",
+      "price": 200,
+      "currency": "coins",
+      "location": "TODO",
+      "requires": ["floating_islands"]
+    }
+  }
+}
