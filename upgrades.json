@@ -1,0 +1,115 @@
+{
+  "faster_melon_spawn_rate": {
+    "display": "Faster Melon Spawn Rate",
+    "description": "Increases melon spawn rate by 50%.",
+    "price": 24,
+    "currency": "coins",
+    "location": "-949,50,-4255",
+    "requires": []
+  },
+  "economics_room": {
+    "display": "Economics Room",
+    "description": "Unlocks three other upgrades in the castle.",
+    "price": 10,
+    "currency": "coins",
+    "location": "-935,51,-4238",
+    "requires": []
+  },
+  "faster_coin_generation": {
+    "display": "Faster Coin Generation",
+    "description": "Decreases the time it takes to automatically generate coins by 67%.",
+    "price": 5,
+    "currency": "coins",
+    "location": "-934,51,-4248",
+    "requires": ["economics_room"]
+  },
+  "better_sell_deals": {
+    "display": "Better Sell Deals",
+    "description": "Increases the melon sell price by 0.15.",
+    "price": 10,
+    "currency": "coins",
+    "location": "-933,51,-4248",
+    "requires": ["economics_room"]
+  },
+  "increased_guard_limit": {
+    "display": "Increased Guard Limit",
+    "description": "Boosts the guard limit by 1.",
+    "price": 15,
+    "currency": "coins",
+    "location": "-932,51,-4248",
+    "requires": ["economics_room"]
+  },
+  "hearth": {
+    "display": "Unlock Hearth",
+    "description": "Adds a room to the castle that gives regeneration when stood inside.",
+    "price": 14,
+    "currency": "coins",
+    "location": "-931,51,-4232",
+    "requires": []
+  },
+  "private_merchant": {
+    "display": "Private Merchant",
+    "description": "Adds a merchant to the castle.",
+    "price": 16,
+    "currency": "coins",
+    "location": "-938,51,-4248",
+    "requires": []
+  },
+  "personal_greenhouse": {
+    "display": "Personal Greenhouse",
+    "description": "Spawns a small farm inside the castle.",
+    "price": 16,
+    "currency": "coins",
+    "location": "-943,51,-4240",
+    "requires": ["private_merchant"]
+  },
+  "stronger_front_door": {
+    "display": "Stronger Front Door",
+    "description": "Makes the door take 3 hits to fully break instead of 1.",
+    "price": 12,
+    "currency": "coins",
+    "location": "-943,51,-4230",
+    "requires": []
+  },
+  "castle_ladder": {
+    "display": "Castle Ladder",
+    "description": "Adds a ladder onto the roof inside the castle.",
+    "price": 6,
+    "currency": "coins",
+    "location": "-937,51,-4229",
+    "requires": ["!castle_roof"]
+  },
+  "castle_roof": {
+    "display": "Castle Roof",
+    "description": "TODO",
+    "price": 6,
+    "currency": "coins",
+    "location": "-937,51,-4228",
+    "requires": ["!castle_ladder"]
+  },
+  "castle_backyard": {
+    "display": "Castle Backyard",
+    "description": "Opens the side of the castle, but blocks off an area connected to that new door.",
+    "price": 12,
+    "currency": "coins",
+    "location": "-938,51,-4226",
+    "requires": []
+  },
+  "castle_basement": {
+    "display": "Castle Basement",
+    "description": "Adds a basement to the backyard. Also lets you see player counts while inside of it.",
+    "price": 24,
+    "currency": "coins",
+    "location": "-927,49,-4222",
+    "requires": ["castle_backyard"]
+  },
+  "urban_start": {
+    "path": "urban",
+    "display": "Upgrade City",
+    "description": "Adds 3 new buildings to the city, along with 1 new area to get upgrades in.",
+    "price": 40,
+    "currency": "coins",
+    "location": "-933,46,-4223",
+    "requires": ["castle_basement"]
+  }
+}

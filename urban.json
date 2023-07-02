@@ -1,0 +1,95 @@
+{
+  "upgrades": {
+    "melon_fertilizer": {
+      "display": "Melon Fertilizer",
+      "description": "Increases melon spawn rate by 50%.",
+      "price": 24,
+      "currency": "coins",
+      "location": "-947,51,-4245",
+      "requires": ["urban_start"]
+    },
+    "significantly_melonier_melons": {
+      "display": "Significantly Melonier Melons",
+      "description": "Increases the melon sell price by 0.2.",
+      "price": 15,
+      "currency": "coins",
+      "location": "-956,44,-4258",
+      "requires": ["urban_start"]
+    },
+    "faster_cooking": {
+      "display": "Faster Cooking",
+      "description": "Allows players to sneak while cooking to quintuple speed.",
+      "price": 25,
+      "currency": "coins",
+      "location": "-953,44,-4255",
+      "requires": ["urban_start"]
+    },
+    "intensive_research": {
+      "display": "Intensive Research",
+      "description": "Adds three additional upgrades to one of the houses.",
+      "price": 45,
+      "currency": "coins",
+      "location": "-954,44,-4257",
+      "requires": ["urban_start"]
+    },
+    "melon_teleporter": {
+      "display": "Melon Teleporter",
+      "description": "Adds a teleporter that can only be used by the king and guards.",
+      "price": 20,
+      "currency": "coins",
+      "location": "-953,45,-4251",
+      "requires": ["urban_start"]
+    },
+    "melon_harvesting_technology": {
+      "display": "Melon Harvesting Technology",
+      "description": "Increases melons per melon from 2-5 to 3-7.",
+      "price": 25,
+      "currency": "coins",
+      "location": "-951,51,-4237",
+      "requires": ["intensive_research"]
+    },
+    "better_return_rates": {
+      "display": "Better Return Rates",
+      "description": "Citizens are 16.67% more likely to get gold from selling to the merchant.",
+      "price": 25,
+      "currency": "coins",
+      "location": "-952,51,-4237",
+      "requires": ["intensive_research"]
+    },
+    "extreme_economy": {
+      "display": "Extreme Economy",
+      "description": "Increases the melon sell price by 0.15, melon spawn rate by 25%, and underground melon spawn rate by 100%.",
+      "price": 40,
+      "currency": "coins",
+      "location": "-953,51,-4237",
+      "requires": ["intensive_research"]
+    },
+    "science_start": {
+      "path": "science",
+      "display": "What We Know To Be True",
+      "description": "TODO",
+      "price": 180,
+      "currency": "coins",
+      "location": "-963,47,-4251",
+      "requires": ["urban_start"]
+    },
+    "democracy_start": {
+      "path": "democracy",
+      "display": "Board Meeting",
+      "description": "TODO",
+      "price": 180,
+      "currency": "coins",
+      "location": "-967,47,-4255",
+      "requires": ["urban_start"]
+    },
+    "true_urban_start": {
+      "path": "true_urban",
+      "display": "The Button",
+      "description": "Expands the merchant house and basement, adding 3 new areas to get upgrades in.",
+      "price": 180,
+      "currency": "coins",
+      "location": "-963,47,-4259",
+      "requires": ["urban_start"]
+    }
+  }
+}
