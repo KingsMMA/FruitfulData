@@ -1,10 +1,50 @@
 {
-  "press_the_button": {
-    "display": "Press The Button",
-    "description": "The button has been pressed.",
-    "price": 0,
+  "a_dollar_a_dime": {
+    "display": "A Dollar A Dime",
+    "description": "Increases the melon sell price by 0.25.",
+    "price": 80,
     "currency": "coins",
-    "location": "-963,45,-4262",
+    "location": "-961,56,-4239",
+    "requires": ["true_urban_start"]
+  },
+  "doubled_city_funding": {
+    "display": "Doubled City Funding",
+    "description": "Gold put into the city bank is now doubled.",
+    "price": 150,
+    "currency": "coins",
+    "location": "-961,56,-4238",
+    "requires": ["true_urban_start"]
+  },
+  "guaranteed_returns": {
+    "display": "Guaranteed Returns",
+    "description": "Citizens are guaranteed to get gold from selling to the merchant, as well as getting more gold than usual.",
+    "price": 80,
+    "currency": "coins",
+    "location": "-961,56,-4237",
+    "requires": ["true_urban_start"]
+  },
+  "better_farmers": {
+    "display": "Better Farmers",
+    "description": "Breaking melons will break all adjacent melons.",
+    "price": 125,
+    "currency": "coins",
+    "location": "-927,51,-4227",
+    "requires": ["true_urban_start"]
+  },
+  "incredibly_fast_growth": {
+    "display": "Incredibly Fast Growth",
+    "description": "Increases melons spawn rate by 100%.",
+    "price": 125,
+    "currency": "coins",
+    "location": "-928,51,-4227",
+    "requires": ["true_urban_start"]
+  },
+  "blast_protection": {
+    "display": "Blast Protection",
+    "description": "Gives the monarch more armor and protection against explosives.",
+    "price": 120,
+    "currency": "coins",
+    "location": "-937,51,-4237",
     "requires": ["true_urban_start"]
   },
   "overclock_teleporter": {
@@ -13,7 +53,7 @@
     "price": 75,
     "currency": "coins",
     "location": "-933,46,-4237",
-    "requires": ["press_the_button"]
+    "requires": ["true_urban_start"]
   },
   "strict_trade_laws": {
     "display": "Strict Trade Laws",
@@ -21,7 +61,7 @@
     "price": 75,
     "currency": "coins",
     "location": "-932,46,-4237",
-    "requires": ["press_the_button"]
+    "requires": ["true_urban_start"]
   },
   "bigger_bunker": {
     "display": "Bigger Bunker",
@@ -29,7 +69,7 @@
     "price": 75,
     "currency": "coins",
     "location": "-931,46,-4237",
-    "requires": ["press_the_button"]
+    "requires": ["true_urban_start"]
   },
   "load_cannons": {
     "display": "Load Cannons",
@@ -52,7 +92,7 @@
     "description": "Allows players to sneak while selling to quintuple speed.",
     "price": 150,
     "currency": "coins",
-    "location": "TODO",
+    "location": "-959,80,-4257",
     "requires": ["floating_islands"]
   },
   "morale_boost": {
@@ -60,7 +100,7 @@
     "description": "Increases everyone's speed by 20%.",
     "price": 200,
     "currency": "coins",
-    "location": "TODO",
+    "location": "-953,80,-4262",
     "requires": ["floating_islands"]
   },
   "lower_shipping_taxes": {
@@ -68,7 +108,103 @@
     "description": "Increases the melon sell price by 0.3.",
     "price": 200,
     "currency": "coins",
-    "location": "TODO",
+    "location": "-952,80,-4262",
     "requires": ["floating_islands"]
+  },
+  "even_better_harvesting": {
+    "display": "Even Better Harvesting",
+    "description": "Increases melons per melon from 3-7 to 5-9.",
+    "price": 200,
+    "currency": "coins",
+    "location": "-951,80,-4262",
+    "requires": ["floating_islands"]
+  },
+  "island_skylights": {
+    "display": "Island Skylights",
+    "description": "Adds a bunch of lanterns around the floating islands.",
+    "price": 500,
+    "currency": "gold",
+    "location": "-943,80,-4261",
+    "requires": ["floating_islands"]
+  },
+  "farming_island": {
+    "display": "Farming Island",
+    "description": "Unlocks the second island, also allowing the farm on it to generate melons.",
+    "price": 400,
+    "currency": "coins",
+    "location": "-960,79,-4253",
+    "requires": ["floating_islands"]
+  },
+  "deluxe_sky_farm": {
+    "display": "Deluxe Sky Farm",
+    "description": "Increases sky melon spawn rate by 150%.",
+    "price": 300,
+    "currency": "coins",
+    "location": "-960,83,-4233",
+    "requires": ["farming_island"]
+  },
+  "quality_control": {
+    "display": "Quality Control",
+    "description": "Increases the melon sell price by 0.5.",
+    "price": 300,
+    "currency": "coins",
+    "location": "-955,83,-4233",
+    "requires": ["farming_island"]
+  },
+  "better_filters": {
+    "display": "Better Filters",
+    "description": "Increases the melon sell price by 0.2.",
+    "price": 225,
+    "currency": "coins",
+    "location": "-940,85,-4234",
+    "requires": ["quality_control"]
+  },
+  "defender_island": {
+    "display": "Defender's Island",
+    "description": "Unlocks the third island, this one containing a small floating castle.",
+    "price": 600,
+    "currency": "coins",
+    "location": "-948,83,-4234",
+    "requires": ["farming_island"]
+  },
+  "public_executions": {
+    "display": "Public Executions",
+    "description": "Allows players to be executed by popular vote.",
+    "price": 300,
+    "currency": "coins",
+    "location": "-935,86,-4243",
+    "requires": ["defender_island"]
+  },
+  "iron_skin": {
+    "display": "Iron Skin",
+    "description": "You now need a wooden sword to attack the guards or the monarch.",
+    "price": 400,
+    "currency": "coins",
+    "location": "-928,87,-4251",
+    "requires": ["defender_island"]
+  },
+  "projectile_protection": {
+    "display": "Projectile Protection",
+    "description": "The monarch gets leggings that will protect them from projectiles.",
+    "price": 400,
+    "currency": "coins",
+    "location": "-928,87,-4249",
+    "requires": ["defender_island"]
+  },
+  "pricey_gunpowder": {
+    "display": "Pricey Gunpowder",
+    "description": "Makes grenades cost 8 gold instead of 4 and makes them recharge slower.",
+    "price": 500,
+    "currency": "coins",
+    "location": "-934,83,-4250",
+    "requires": ["defender_island"]
+  },
+  "the_grand_finale": {
+    "display": "The Grand Finale",
+    "description": "Unlocks the final island. You pretty much won the game.",
+    "price": 800,
+    "currency": "coins",
+    "location": "-937,86,-4256",
+    "requires": ["faster_selling", "morale_boost", "lower_shipping_taxes", "even_better_harvesting", "farming_island", "deluxe_sky_farm", "quality_control", "better_filters", "defender_island", "public_executions", "iron_skin", "projectile_protection", "pricey_gunpowder"]
   }
 }

@@ -1,0 +1,18 @@
+{
+  "endless_nameless": {
+    "display": "Endless Nameless",
+    "description": "Increases the melon sell price by 0.2. This upgrade has been '1' times.",
+    "price": 350,
+    "currency": "coins",
+    "location": "-697,13,-3993",
+    "requires": ["endless_start"]
+  },
+  "life_at_world_end": {
+    "display": "Life At World's End",
+    "description": "The farm on the island now generates melons, and a merchant and furnace are spawned.",
+    "price": 450,
+    "currency": "coins",
+    "location": "-693,13,-3993",
+    "requires": ["endless_start"]
+  }
+}
