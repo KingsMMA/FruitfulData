@@ -62,5 +62,62 @@
     "currency": "favors",
     "location": "-903,48,-4249",
     "requires": ["religion_start"]
+  },
+  "faster_cooking": {
+    "display": "Faster Cooking",
+    "description": "Allows players to sneak while cooking to quintuple speed.",
+    "price": 1,
+    "currency": "favors",
+    "location": "-897,48,-4246",
+    "requires": ["harness_the_spirits"]
+  },
+  "faster_selling": {
+    "display": "Faster Selling",
+    "description": "Allows players to sneak while selling to quintuple speed.",
+    "price": 5,
+    "currency": "favors",
+    "location": "-897,48,-4244",
+    "requires": ["harness_the_spirits"]
+  },
+  "rise_from_ashes": {
+    "display": "Rise From The Ashes",
+    "description": "Gives the king a second chance, and resistance during their current life.",
+    "price": 15,
+    "currency": "favors",
+    "location": "-898,47,-4243",
+    "requires": ["harness_the_spirits"]
+  },
+  "better_farmers": {
+    "display": "Better Farmers",
+    "description": "Breaking melons will break all adjacent melons.",
+    "price": 20,
+    "currency": "favors",
+    "location": "-902,47,-4243",
+    "requires": ["harness_the_spirits"]
+  },
+  "strict_trade_laws": {
+    "display": "Strict Trade Laws",
+    "description": "Slows down the speed of imports by 50%, caps them at 30, and makes them 50% less likely to contain contraband.",
+    "price": 25,
+    "currency": "favors",
+    "location": "-903,48,-4244",
+    "requires": ["harness_the_spirits"]
+  },
+  "better_return_rates": {
+    "display": "Better Return Rates",
+    "description": "Citizens are 16.67% more likely to get gold from selling to the merchant.",
+    "price": 10,
+    "currency": "favors",
+    "location": "-903,48,-4246",
+    "requires": ["harness_the_spirits"]
+  },
+  "unconfined_existence": {
+    "display": "Unconfined Existence",
+    "description": "Opens a door near the shop that unlocks an additional 6 upgrades.",
+    "price": 100,
+    "currency": "coins",
+    "location": "-900,48,-4243",
+    "requires": ["harness_the_spirits"]
+  },
   }
 }
