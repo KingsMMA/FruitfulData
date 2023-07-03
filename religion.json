@@ -167,5 +167,60 @@
     "location": "-963,51,-4213",
     "requires": ["unconfined_existence"]
   },
+  "hive_minded_harbingers": {
+    "display": "Hive Minded Harbingers",
+    "description": "Gain 15 additional coins from blessings.",
+    "price": 120,
+    "currency": "coins",
+    "location": "-920,48,-4233",
+    "requires": ["another_dimension"]
+  },
+  "complete_clarity": {
+    "display": "Complete Clarity",
+    "description": "Gain 10 additional coins from blessings.",
+    "price": 210,
+    "currency": "coins",
+    "location": "-907,43,-4231",
+    "requires": ["another_dimension"]
+  },
+  "submission": {
+    "display": "Submission",
+    "description": "Decreases the rate at which appeasement decays by 33%.",
+    "price": 250,
+    "currency": "coins",
+    "location": "-910,43,-4225",
+    "requires": ["another_dimension"]
+  },
+  "holy_protection": {
+    "display": "Holy Protection",
+    "description": "Gives the monarch more armor.",
+    "price": 50,
+    "currency": "coins",
+    "location": "-905,43,-4228",
+    "requires": ["another_dimension"]
+  },
+  "divine_intervention": {
+    "display": "Divine Intervention",
+    "description": "The threshold for punishments decreases even further, and so does the time between blessings.",
+    "price": 150,
+    "currency": "coins",
+    "location": "-903,43,-4225",
+    "requires": ["another_dimension"]
+  },
+  "by_the_power": {
+    "display": "By The Power Of Power",
+    "description": "Increases the duration of the Gold Rush event by 50%.",
+    "price": 75,
+    "currency": "coins",
+    "location": "-907,43,-4221",
+    "requires": ["another_dimension"]
+  },
+  "the_greater_good": {
+    "display": "The Greater Good",
+    "description": "You win.",
+    "price": 400,
+    "currency": "coins",
+    "location": "-904,43,-422",
+    "requires": ["special_delivery", "for_your_convenience", "saving_grace", "devotion", "bountiful_harvest", "plentiful_prizes", "forgiving_gods", "unconfined_existence", "packed_presents", "generous_gifts", "gold_rush", "the_graceful_one", "servitude", "another_dimension", "hive_minded_harbingers", "complete_clarity", "submission", "holy_protection", "divine_intervention", "by_the_power"]
   }
 }
