@@ -119,5 +119,53 @@
     "location": "-900,48,-4243",
     "requires": ["harness_the_spirits"]
   },
+  "packed_presents": {
+    "display": "Packed Presents",
+    "description": "Gain 7 additional coins from blessings.",
+    "price": 80,
+    "currency": "coins",
+    "location": "-960,51,-4216",
+    "requires": ["unconfined_existence"]
+  },
+  "generous_gifts": {
+    "display": "Generous Gifts",
+    "description": "Gain 8 additional coins from blessings.",
+    "price": 130,
+    "currency": "coins",
+    "location": "-960,51,-4215",
+    "requires": ["unconfined_existence"]
+  },
+  "gold_rush": {
+    "display": "Gold Rush",
+    "description": "Unlocks an event that occurs if you do well at appeasing the melon god.",
+    "price": 75,
+    "currency": "coins",
+    "location": "-962,51,-4213",
+    "requires": ["unconfined_existence"]
+  },
+  "the_graceful_one": {
+    "display": "The Graceful One",
+    "description": "Further reduces the threshold at which you get punished, and further decreases the time between blessings.",
+    "price": 200,
+    "currency": "coins",
+    "location": "-965,51,-4215",
+    "requires": ["unconfined_existence"]
+  },
+  "servitude": {
+    "display": "Servitude",
+    "description": "Decreases the rate at which appeasement decays by 50%.",
+    "price": 125,
+    "currency": "coins",
+    "location": "-965,51,-4216",
+    "requires": ["unconfined_existence"]
+  },
+  "another_dimension": {
+    "display": "Another Dimension",
+    "description": "Opens a portal to another dimension behind the castle.",
+    "price": 325,
+    "currency": "coins",
+    "location": "-963,51,-4213",
+    "requires": ["unconfined_existence"]
+  },
   }
 }
