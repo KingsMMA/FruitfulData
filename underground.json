@@ -1,0 +1,116 @@
+{
+  "revoke_weapon_bans": {
+    "display": "Revoke Weapon Bans",
+    "description": "Allows guards and the king to throw flashbangs, and the king to shoot crossbows.",
+    "price": 35,
+    "currency": "coins",
+    "location": "-964,43,-4215",
+    "requires": ["underground_start"]
+  },
+  "upgrade_town_front": {
+    "display": "Upgrade Town",
+    "description": "Adds a cheaper black market and an extra house",
+    "price": 75,
+    "currency": "gold",
+    "location": "-962,44,-4215",
+    "requires": ["underground_start"],
+    "has_duplicate_names": true
+  },
+  "quicker_trading": {
+    "display": "Quicker Trading",
+    "description": "Allows sneaking while buying from marketplace to quintuple speed, makes sneaking to deposit bank gold 220% faster.",
+    "price": 650,
+    "currency": "gold",
+    "location": "-948,43,-4222",
+    "requires": ["upgrade_town_front", "destroy_wall_1"]
+  },
+  "lucky_day": {
+    "display": "Lucky Day",
+    "description": "Returns now give +1 Gold.",
+    "price": 50,
+    "currency": "gold",
+    "location": "-970,43,-4207",
+    "requires": ["underground_start"]
+  },
+  "farming_rally": {
+    "display": "Farming Rally",
+    "description": "Melon Farm Generates melons 50% faster.",
+    "price": 100,
+    "currency": "gold",
+    "location": "-970,43,-4208",
+    "requires": ["underground_start"]
+  },
+  "faster_cooking": {
+    "display": "Faster Cooking",
+    "description": "Allow players to sneak while cooking to quintuple speed.",
+    "price": 200,
+    "currency": "gold",
+    "location": "-970,43,-4209",
+    "requires": ["underground_start"]
+  },
+  "upgrade_town_east": {
+    "display": "Upgrade Town",
+    "description": "Adds a new house and new upgrades.",
+    "price": 150,
+    "currency": "gold",
+    "location": "-962,44,-4206",
+    "requires": ["underground_start"],
+    "has_duplicate_names": true
+  },
+  "advanced_weaponry": {
+    "display": "Advanced Weaponry",
+    "description": "Reduces cooldown for grenades and flashbangs, but only for the king and guards.",
+    "price": 45,
+    "currency": "coins",
+    "location": "-952,43,-4207",
+    "requires": ["upgrade_town_east"]
+  },
+  "public_executions": {
+    "display": "Public Executions",
+    "description": "Allows players to be executed by popular vote.",
+    "price": 50,
+    "currency": "coins",
+    "location": "-952,43,-4206",
+    "requires": ["upgrade_town_east"]
+  },
+  "increased_blast_resistance": {
+    "display": "Increased Blast Resistance",
+    "description": "Increases the king's natural blast protection from 75% to 85%.",
+    "price": 55,
+    "currency": "coins",
+    "location": "-952,43,-4205",
+    "requires": ["upgrade_town_east"]
+  },
+  "better_bankers": {
+    "display": "Better Bankers",
+    "description": "Banking gold banks 0.5 more gold.",
+    "price": 325,
+    "currency": "gold",
+    "location": "-958,43,-4195",
+    "requires": ["upgrade_town_east"]
+  },
+  "faster_selling": {
+    "display": "Faster Selling",
+    "description": "Allow players to sneak while selling to quintuple speed.",
+    "price": 300,
+    "currency": "gold",
+    "location": "-951,43,-4199",
+    "requires": ["upgrade_town_east"]
+  },
+  "rapid_reload": {
+    "display": "Rapid Reload",
+    "description": "Decreases the cooldown for grenades and flashbangs.",
+    "price": 400,
+    "currency": "gold",
+    "location": "-951,43,-4198",
+    "requires": ["upgrade_town_east"]
+  },
+  "better_return_rates": {
+    "display": "Better Return Rates",
+    "description": "Citizens are 16.67% more likely to get gold from selling to the merchant.",
+    "price": 500,
+    "currency": "gold",
+    "location": "-951,43,-4197",
+    "requires": ["upgrade_town_east"]
+  }
+}
