@@ -32,11 +32,11 @@
     "requires": ["religion_start"]
   },
   "bountiful_harvest": {
-    "display": "Devotion",
-    "description": "Makes the melon god's appeasement decay twice as slowly.",
-    "price": 15,
+    "display": "Bountiful Harvest",
+    "description": "Gain 2 additional coins from blessings.",
+    "price": 30,
     "currency": "coins",
-    "location": "-901,47,-4258",
+    "location": "-901,47,-4256",
     "requires": ["religion_start"]
   },
   "plentiful_prizes": {
