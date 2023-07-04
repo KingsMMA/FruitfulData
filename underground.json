@@ -170,13 +170,22 @@
     "location": "-949,37,-4193",
     "requires": ["destroy_wall_1"]
   },
+  "upgrade_town_depths": {
+    "display": "Upgrade Town",
+    "description": "Unlocks 3 new upgrades.",
+    "price": 325,
+    "currency": "gold",
+    "location": "-937,39,-4185",
+    "requires": ["destroy_wall_1"],
+    "has_duplicate_names": true
+  },
   "richer_metals": {
     "display": "Richer Metals",
     "description": "Banking gold banks 0.5 more gold.",
     "price": 1000,
     "currency": "gold",
     "location": "-936,38,-4181",
-    "requires": ["destroy_wall_1"]
+    "requires": ["upgrade_town_depths"]
   },
   "grenade_tech_breakthrough": {
     "display": "Grenade Tech Breakthrough",
@@ -184,7 +193,7 @@
     "price": 2000,
     "currency": "gold",
     "location": "-937,38,-4181",
-    "requires": ["destroy_wall_1"]
+    "requires": ["upgrade_town_depths"]
   },
   "doubled_city_funding": {
     "display": "Doubled City Funding",
@@ -192,7 +201,7 @@
     "price": 3000,
     "currency": "gold",
     "location": "-938,38,-4181",
-    "requires": ["destroy_wall_1", "!hardmode"]
+    "requires": ["upgrade_town_depths", "!hardmode"]
   },
   "upgrade_town_farm": {
     "display": "Upgrade Town",
@@ -283,7 +292,7 @@
     "description": "Opens a passage between two areas.",
     "price": 100,
     "currency": "gold",
-    "location": "TODO",
+    "location": "-925,38,-4202",
     "requires": ["destroy_wall_2"]
   },
   "start_raid": {
