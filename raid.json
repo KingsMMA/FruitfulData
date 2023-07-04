@@ -1,0 +1,82 @@
+{
+  "standard_issue_forges": {
+    "display": "Standard Issue Forges",
+    "description": "Increases the tier of your raid weapons.",
+    "price": 3000,
+    "currency": "gold",
+    "location": "-952,40,-4169",
+    "requires": ["start_raid"]
+  },
+  "basic_armory": {
+    "display": "Basic Armory",
+    "description": "Increases the tier of your raid armor.",
+    "price": 3000,
+    "currency": "gold",
+    "location": "-935,40,-4163",
+    "requires": ["start_raid"]
+  },
+  "grenade_stockpiles": {
+    "display": "Grenade Stockpiles",
+    "description": "Increases the amount of grenades you get per wave.",
+    "price": 5000,
+    "currency": "gold",
+    "location": "-929,39,-4146",
+    "requires": ["start_raid"]
+  },
+  "power_through": {
+    "display": "Power Through",
+    "description": "Increases the tier of your raid armor.",
+    "price": 9000,
+    "currency": "gold",
+    "location": "-931,39,-4134",
+    "requires": ["start_raid"]
+  },
+  "thorough_defense": {
+    "display": "Thorough Defense",
+    "description": "Increases the tier of your raid armor.",
+    "price": 6000,
+    "currency": "gold",
+    "location": "-940,40,-4140",
+    "requires": ["start_raid"]
+  },
+  "stronger_blades": {
+    "display": "Stronger Blades",
+    "description": "Increases the tier of your raid weapons.",
+    "price": 6000,
+    "currency": "gold",
+    "location": "-936,40,-4146",
+    "requires": ["start_raid"]
+  },
+  "gemstone_blades": {
+    "display": "Gemstone Blades",
+    "description": "Increases the tier of your raid weapons.",
+    "price": 9000,
+    "currency": "gold",
+    "location": "-954,40,-4144",
+    "requires": ["start_raid"]
+  },
+  "diamond_forges": {
+    "display": "Diamond Forges",
+    "description": "Increases the tier of your raid armor.",
+    "price": 15000,
+    "currency": "gold",
+    "location": "-937,36,-4169",
+    "requires": ["standard_issue_forges", "basic_armory", "grenade_stockpiles", "power_through", "thorough_defense", "stronger_blades", "gemstone_blades"]
+  },
+  "the_perfect_weapons": {
+    "display": "The Perfect Weapons",
+    "description": "Increases the tier of your raid weapons.",
+    "price": 15000,
+    "currency": "gold",
+    "location": "-927,36,-4169",
+    "requires": ["standard_issue_forges", "basic_armory", "grenade_stockpiles", "power_through", "thorough_defense", "stronger_blades", "gemstone_blades"]
+  },
+  "impenetrable_defenses": {
+    "display": "Impenetrable Defenses",
+    "description": "Increases the tier of your raid armor.",
+    "price": 15000,
+    "currency": "gold",
+    "location": "-932,36,-4172",
+    "requires": ["standard_issue_forges", "basic_armory", "grenade_stockpiles", "power_through", "thorough_defense", "stronger_blades", "gemstone_blades"]
+  }
+}
