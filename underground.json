@@ -1,0 +1,306 @@
+{
+  "revoke_weapon_bans": {
+    "display": "Revoke Weapon Bans",
+    "description": "Allows guards and the monarch to throw grenades, and allows the monarch to shoot crossbows.",
+    "price": 35,
+    "currency": "coins",
+    "location": "-964,43,-4215",
+    "requires": ["underground_start"]
+  },
+  "upgrade_town_bm": {
+    "display": "Upgrade Town",
+    "description": "Adds a cheaper black market and an extra house.",
+    "price": 75,
+    "currency": "gold",
+    "location": "-962,44,-4215",
+    "requires": ["underground_start"],
+    "has_duplicate_names": true
+  },
+  "quicker_trading": {
+    "display": "Quicker Trading",
+    "description": "Allows sneaking while buying from the marketplace to quintuple speed, and makes sneaking to deposit bank gold 220% faster.",
+    "price": 650,
+    "currency": "gold",
+    "location": "-948,43,-4222",
+    "requires": ["upgrade_town_bm", "destroy_wall_1"]
+  },
+  "lucky_day": {
+    "display": "Lucky Day",
+    "description": "Returns now give +1 gold.",
+    "price": 50,
+    "currency": "gold",
+    "location": "-970,43,-4207",
+    "requires": ["underground_start"]
+  },
+  "farming_rally": {
+    "display": "Farming Rally",
+    "description": "Melon farm generates melons 50% faster.",
+    "price": 100,
+    "currency": "gold",
+    "location": "-970,43,-4208",
+    "requires": ["underground_start"]
+  },
+  "faster_cooking": {
+    "display": "Faster Cooking",
+    "description": "Allows players to sneak while cooking to quintuple speed.",
+    "price": 200,
+    "currency": "gold",
+    "location": "-970,43,-4209",
+    "requires": ["underground_start"]
+  },
+  "upgrade_town_armory": {
+    "display": "Upgrade Town",
+    "description": "Adds a new house and new upgrades.",
+    "price": 150,
+    "currency": "gold",
+    "location": "-962,44,-4206",
+    "requires": ["underground_start"],
+    "has_duplicate_names": true
+  },
+  "advanced_weaponry": {
+    "display": "Advanced Weaponry",
+    "description": "Reduces the cooldown for grenades and flashbangs, but only for the monarch and guards.",
+    "price": 45,
+    "currency": "coins",
+    "location": "-952,43,-4207",
+    "requires": ["upgrade_town_armory"]
+  },
+  "public_executions": {
+    "display": "Public Executions",
+    "description": "Allows players to be executed by popular vote.",
+    "price": 50,
+    "currency": "coins",
+    "location": "-952,43,-4206",
+    "requires": ["upgrade_town_armory"]
+  },
+  "increased_blast_resistance": {
+    "display": "Increased Blast Resistance",
+    "description": "Increases the monarch's natural blast protection from 75% to 85%.",
+    "price": 55,
+    "currency": "coins",
+    "location": "-952,43,-4205",
+    "requires": ["upgrade_town_armory"]
+  },
+  "better_bankers": {
+    "display": "Better Bankers",
+    "description": "Banking gold banks 0.5 more gold.",
+    "price": 325,
+    "currency": "gold",
+    "location": "-958,43,-4195",
+    "requires": ["upgrade_town_armory"]
+  },
+  "faster_selling": {
+    "display": "Faster Selling",
+    "description": "Allows players to sneak while selling to quintuple speed.",
+    "price": 300,
+    "currency": "gold",
+    "location": "-951,43,-4199",
+    "requires": ["upgrade_town_armory"]
+  },
+  "rapid_reload": {
+    "display": "Rapid Reload",
+    "description": "Decreases the cooldown for grenades and flashbangs.",
+    "price": 400,
+    "currency": "gold",
+    "location": "-951,43,-4198",
+    "requires": ["upgrade_town_armory"]
+  },
+  "better_return_rates": {
+    "display": "Better Return Rates",
+    "description": "Citizens are 16.67% more likely to get gold from selling to the merchant.",
+    "price": 500,
+    "currency": "gold",
+    "location": "-951,43,-4197",
+    "requires": ["upgrade_town_armory"]
+  },
+  "upgrade_town_center": {
+    "display": "Upgrade Town",
+    "description": "Unlocks an underground farm and the wall.",
+    "price": 150,
+    "currency": "gold",
+    "location": "-963,44,-4205",
+    "requires": ["underground_start"],
+    "has_duplicate_names": true
+  },
+  "quicker_sprouting": {
+    "display": "Quicker Sprouting",
+    "description": "Doubles underground farm speed.",
+    "price": 300,
+    "currency": "gold",
+    "location": "-965,43,-4194",
+    "requires": ["upgrade_town_center"]
+  },
+  "fertile_soil": {
+    "display": "Fertile Soil",
+    "description": "Doubles underground farm speed.",
+    "price": 600,
+    "currency": "gold",
+    "location": "-965,43,-4198",
+    "requires": ["upgrade_town_center"]
+  },
+  "golden_extractors": {
+    "display": "Golden Extractors",
+    "description": "Banking gold banks 0.5 more gold.",
+    "price": 500,
+    "currency": "gold",
+    "location": "-938,39,-4192",
+    "requires": ["destroy_wall_1"]
+  },
+  "market_manipulation": {
+    "display": "Market Manipulation",
+    "description": "Increases the melon sell price by 0.2.",
+    "price": 50,
+    "currency": "coins",
+    "location": "-949,37,-4191",
+    "requires": ["destroy_wall_1"]
+  },
+  "projectile_proofing": {
+    "display": "Projectile Proofing",
+    "description": "The monarch gets weak armor with projectile protection.",
+    "price": 100,
+    "currency": "coins",
+    "location": "-949,37,-4192",
+    "requires": ["destroy_wall_1"]
+  },
+  "light_based_growth_spurts": {
+    "display": "Light-Based Growth Spurts",
+    "description": "Increases melon spawn rate by 50%.",
+    "price": 50,
+    "currency": "coins",
+    "location": "-949,37,-4193",
+    "requires": ["destroy_wall_1"]
+  },
+  "upgrade_town_depths": {
+    "display": "Upgrade Town",
+    "description": "Unlocks 3 new upgrades.",
+    "price": 325,
+    "currency": "gold",
+    "location": "-937,39,-4185",
+    "requires": ["destroy_wall_1"],
+    "has_duplicate_names": true
+  },
+  "richer_metals": {
+    "display": "Richer Metals",
+    "description": "Banking gold banks 0.5 more gold.",
+    "price": 1000,
+    "currency": "gold",
+    "location": "-936,38,-4181",
+    "requires": ["upgrade_town_depths"]
+  },
+  "grenade_tech_breakthrough": {
+    "display": "Grenade Tech Breakthrough",
+    "description": "Reduces the grenade cooldown.",
+    "price": 2000,
+    "currency": "gold",
+    "location": "-937,38,-4181",
+    "requires": ["upgrade_town_depths"]
+  },
+  "doubled_city_funding": {
+    "display": "Doubled City Funding",
+    "description": "Gold put into the city bank is doubled.",
+    "price": 3000,
+    "currency": "gold",
+    "location": "-938,38,-4181",
+    "requires": ["upgrade_town_depths", "!hardmode"]
+  },
+  "upgrade_town_farm": {
+    "display": "Upgrade Town",
+    "description": "Opens a new area with a few new upgrades.",
+    "price": 325,
+    "currency": "gold",
+    "location": "-930,39,-4192",
+    "requires": ["destroy_wall_1"],
+    "has_duplicate_names": true
+  },
+  "what_shines_bright": {
+    "display": "What Shines Bright",
+    "description": "Banking gold banks 0.5 more gold.",
+    "price": 1500,
+    "currency": "gold",
+    "location": "-923,38,-4180",
+    "requires": ["upgrade_town_farm"]
+  },
+  "guaranteed_returns": {
+    "display": "Guaranteed Returns",
+    "description": "Citizens are guaranteed to get gold from selling to the merchant, as well as getting more gold than usual.",
+    "price": 3000,
+    "currency": "gold",
+    "location": "-927,38,-4188",
+    "requires": ["upgrade_town_farm"]
+  },
+  "farming_reservations": {
+    "display": "Farming Reservations",
+    "description": "Opens a second, larger underground farm.",
+    "price": 300,
+    "currency": "gold",
+    "location": "-923,38,-4199",
+    "requires": ["upgrade_town_farm"]
+  },
+  "extra_fertilizer": {
+    "display": "Extra Fertilizer",
+    "description": "Increases the speed of the second farm by 100%.",
+    "price": 600,
+    "currency": "gold",
+    "location": "-922,38,-4199",
+    "requires": ["upgrade_town_farm"]
+  },
+  "melon_generators": {
+    "display": "Melon Generators",
+    "description": "Increases the speed of the second farm by 150%.",
+    "price": 1000,
+    "currency": "gold",
+    "location": "-921,38,-4199",
+    "requires": ["upgrade_town_farm"]
+  },
+  "upgrade_town_second_wall": {
+    "display": "Upgrade Town",
+    "description": "Opens a new area with a few new upgrades.",
+    "price": 325,
+    "currency": "gold",
+    "location": "-937,39,-4199",
+    "requires": ["destroy_wall_1"],
+    "has_duplicate_names": true
+  },
+  "upgrade_town_teleporter": {
+    "display": "Upgrade Town",
+    "description": "Unlocks two linked teleporters to more easily navigate the underground area.",
+    "price": 500,
+    "currency": "gold",
+    "location": "-942,39,-4204",
+    "requires": ["upgrade_town_second_wall"],
+    "has_duplicate_names": true
+  },
+  "currency_exchange": {
+    "display": "Currency Exchange",
+    "description": "Allows coins to be converted into bank gold.",
+    "price": 30,
+    "currency": "coins",
+    "location": "-935,38,-4211",
+    "requires": ["upgrade_town_second_wall"]
+  },
+  "upgrade_town_raid": {
+    "display": "Upgrade Town",
+    "description": "Unlocks the second wall.",
+    "price": 2000,
+    "currency": "gold",
+    "location": "-932,39,-4204",
+    "requires": ["upgrade_town_second_wall"],
+    "has_duplicate_names": true
+  },
+  "cutting_through": {
+    "display": "Cutting Through",
+    "description": "Opens a passage between two areas.",
+    "price": 100,
+    "currency": "gold",
+    "location": "-925,38,-4202",
+    "requires": ["destroy_wall_2"]
+  },
+  "start_raid": {
+    "display": "Start Raid",
+    "description": "Begins the raid.",
+    "price": 4000,
+    "currency": "gold",
+    "location": "-924,37,-4204",
+    "requires": ["destroy_wall_2"]
+  }
+}
