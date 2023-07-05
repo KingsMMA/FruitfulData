@@ -1,0 +1,288 @@
+{
+  "strongest_front_door": {
+    "display": "Strongest Front Door",
+    "description": "Makes the door take 9 hits to fully break instead of 3.",
+    "price": 150,
+    "currency": "coins",
+    "location": "-943,51,-4238",
+    "requires": ["stronger_front_door", "science_start"]
+  },
+  "fortify_defenses": {
+    "display": "Fortify Defenses",
+    "description": "Combines the castle ladder and roof.",
+    "price": 110,
+    "currency": "coins",
+    "location": "-935,51,-4244",
+    "requires": ["economics_room", "science_start"]
+  },
+  "plasma_accelerator": {
+    "display": "Plasma Accelerator",
+    "description": "The monarch gains a multi-purpose chestplate.",
+    "price": 75,
+    "currency": "coins",
+    "location": "-931,51,-4244",
+    "requires": ["economics_room", "science_start"]
+  },
+  "scientific_method": {
+    "display": "Scientific Method",
+    "description": "Begins the scientific revolution.",
+    "price": 65,
+    "currency": "coins",
+    "location": "-952,50,-4254",
+    "requires": ["science_start"]
+  },
+  "fast_travel": {
+    "display": "Fast Travel",
+    "description": "Allows fast transport between the science table and the bunker.",
+    "price": 20,
+    "currency": "coins",
+    "location": "-934,43,-4268",
+    "requires": ["scientific_method"]
+  },
+  "quicker_studies": {
+    "display": "Quicker Studies",
+    "description": "Decreases the effort needed to form a hypothesis by 8.",
+    "price": 5,
+    "currency": "science_physics",
+    "location": "-924,42,-4265",
+    "requires": ["scientific_method"]
+  },
+  "chemical_reactions": {
+    "display": "Chemical Reactions",
+    "description": "Reduces the time needed to stabilize the sample.",
+    "price": 10,
+    "currency": "science_physics",
+    "location": "-922,42,-4264",
+    "requires": ["scientific_method"]
+  },
+  "cheaper_methods": {
+    "display": "Cheaper Methods",
+    "description": "Reduces the cost for funding by 2 coins.",
+    "price": 15,
+    "currency": "science_physics",
+    "location": "-922,42,-4262",
+    "requires": ["scientific_method"]
+  },
+  "to_infinity_and_beyond": {
+    "display": "To Infinity And Beyond",
+    "description": "Summons a giant planetoid in the sky, along with a teleport pad to get there.",
+    "price": 40,
+    "currency": "science_physics",
+    "location": "-924,42,-4261"
+  },
+  "increased_melon_values": {
+    "display": "Increased Melon Values",
+    "description": "Increases the melon sell price by 0.15.",
+    "price": 60,
+    "currency": "coins",
+    "location": "-927,42,-4259",
+    "requires": ["scientific_method"]
+  },
+  "automated_funding": {
+    "display": "Automated Funding",
+    "description": "Occasionally puts bank gold into the city bank, and passively generates funding and samples.",
+    "price": 5,
+    "currency": "science_society",
+    "location": "-928,42,-4256",
+    "requires": ["scientific_method"]
+  },
+  "fast_footed": {
+    "display": "Fast Footed",
+    "description": "Gives everyone permanent Speed I while inside the main farm.",
+    "price": 10,
+    "currency": "science_society",
+    "location": "-929,42,-4254"
+  },
+  "golden_boosters": {
+    "display": "Golden Boosters",
+    "description": "Selling melons now grants an additional gold.",
+    "price": 40,
+    "currency": "coins",
+    "location": "-931,42,-4254",
+    "requires": ["scientific_method"]
+  },
+  "faster_selling": {
+    "display": "Faster Selling",
+    "description": "Allows player to sneak while selling to quintuple speed.",
+    "price": 5,
+    "currency": "science_society",
+    "location": "-932,42,-4256",
+    "requires": ["scientific_method"]
+  },
+  "income_boosters": {
+    "display": "Income Boosters",
+    "description": "Increases the melon sell price by 0.2.",
+    "price": 100,
+    "currency": "coins",
+    "location": "-933,42,-4259",
+    "requires": ["scientific_method"]
+  },
+  "calculator_core": {
+    "display": "Calculator Core",
+    "description": "Increases melons per melon by one and adds an approximate melon counter.",
+    "price": 5,
+    "currency": "science_technology",
+    "location": "-936,42,-4261",
+    "requires": ["scientific_method"]
+  },
+  "genome_sequencing": {
+    "display": "Genome Sequencing",
+    "description": "Increases farm speed by 50% and decreases effort needed for stabilization by 33%.",
+    "price": 10,
+    "currency": "science_technology",
+    "location": "-938,42,-4262",
+    "requires": ["scientific_method"]
+  },
+  "farm_rush": {
+    "display": "Farm Rush",
+    "description": "Adds an event you can trigger by donating gold to the farm.",
+    "price": 5,
+    "currency": "science_technology",
+    "location": "-938,42,-4264",
+    "requires": ["scientific_method"]
+  },
+  "science_team": {
+    "display": "Science Team",
+    "description": "Increases science from research by 1.",
+    "price": 15,
+    "currency": "science_technology",
+    "location": "-936,42,-4265",
+    "requires": ["scientific_method"]
+  },
+  "digitalized_profits": {
+    "display": "Digitalized Profits",
+    "description": "Increases the melon sell price by 0.25.",
+    "price": 150,
+    "currency": "coins",
+    "location": "-933,42,-4268",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "scientific_sell_price": {
+    "display": "Scientific Sell Price",
+    "description": "Increases the melon sell price by 0.3.",
+    "price": 210,
+    "currency": "coins",
+    "location": "-927,43,-4267",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "speedy_stabilizers": {
+    "display": "Speedy Stabilizers",
+    "description": "Reduces the time needed to stabilize the sample even further.",
+    "price": 20,
+    "currency": "science_physics",
+    "location": "-945,144,-4247",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "quick_thinkers": {
+    "display": "Quick Thinkers",
+    "description": "Decreases the effort needed to form a hypothesis by 8.",
+    "price": 30,
+    "currency": "science_physics",
+    "location": "-945,144,-4246",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "budget_cuts": {
+    "display": "Budget Cuts",
+    "description": "Reduces the cost for funding by 3 coins.",
+    "price": 40,
+    "currency": "science_physics",
+    "location": "-945,144,-4245",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "better_farmers": {
+    "display": "Better Farmers",
+    "description": "Breaking melons will break all adjacent melons.",
+    "price": 5,
+    "currency": "science_society",
+    "location": "-945,144,-4239",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "guaranteed_returns": {
+    "display": "Guaranteed Returns",
+    "description": "Citizens are guaranteed to get gold from selling to the merchant, as well as getting more gold than usual.",
+    "price": 10,
+    "currency": "science_society",
+    "location": "-945,144,-4238",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "doubled_city_funding": {
+    "display": "Double City Funding",
+    "description": "Gold put into the city bank is now doubled.",
+    "price": 5,
+    "currency": "science_society",
+    "location": "-945,144,-4237",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "faster_scribbling": {
+    "display": "Faster Scribbling",
+    "description": "The hypothesis sign can now be shift-clicked to quadruple speed.",
+    "price": 20,
+    "currency": "science_technology",
+    "location": "-953,144,-4237",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "stabilization_breakthrough": {
+    "display": "Stabilization Breakthrough",
+    "description": "Stabilization efforts required reduced by 50%.",
+    "price": 30,
+    "currency": "science_technology",
+    "location": "-953,144,-4238",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "super_science": {
+    "display": "Super Science",
+    "description": "Increases science from research by 1.",
+    "price": 40,
+    "currency": "science_technology",
+    "location": "-953,144,-4239",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "unlock_bunker": {
+    "display": "Unlock Bunker",
+    "description": "Unlocks the bunker in the castle basement.",
+    "price": 100,
+    "currency": "coins",
+    "location": "-953,144,-4245",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "overclock_teleporter": {
+    "display": "Overclock Teleporter",
+    "description": "Powering the teleporter will now give it three charges.",
+    "price": 75,
+    "currency": "coins",
+    "location": "-933,46,-4237",
+    "requires": ["unlock_bunker"]
+  },
+  "strict_trade_laws": {
+    "display": "Strict Trade Laws",
+    "description": "Slows down the speed of imports by 50%, caps them at 30, and makes them 50% less likely to contain contraband.",
+    "price": 75,
+    "currency": "coins",
+    "location": "-932,46,-4237",
+    "requires": ["unlock_bunker"]
+  },
+  "extra_acceleration": {
+    "display": "Extra Acceleration",
+    "description": "The monarch gains multi-purpose leggings.",
+    "price": 125,
+    "currency": "coins",
+    "location": "-953,144,-4246",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "the_vault": {
+    "display": "The Vault",
+    "description": "After a successful run, everyone is rewarded.",
+    "price": 100,
+    "currency": "coins",
+    "location": "-953,144,-4247",
+    "requires": ["to_infinity_and_beyond"]
+  },
+  "core_overload": {
+    "display": "Core Overload",
+    "description": "Run.",
+    "price": 0,
+    "currency": "coins",
+    "location": "-950,159,-4242",
+    "requires": ["speedy_stabilizers", "quick_thinkers", "budget_cuts", "faster_scribbling", "stabilization_breakthrough", "super_science"]
+  }
+}
