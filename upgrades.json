@@ -144,5 +144,14 @@
     "currency": "coins",
     "location": "-926,51,-4257",
     "requires": []
+  },
+  "underground_start": {
+    "path": "underground",
+    "display": "Underground Society",
+    "description": "Opens the underground.",
+    "price": 65,
+    "currency": "coins",
+    "location": "-973,51,-4252",
+    "requires": []
   }
 }
