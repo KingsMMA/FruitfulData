@@ -73,7 +73,7 @@
   },
   "load_cannons": {
     "display": "Load Cannons",
-    "description": "Adds a button to the bunker that lets the king fire an aerial cannon.",
+    "description": "Adds a button to the bunker that lets the monarch fire an aerial cannon.",
     "price": 50,
     "currency": "coins",
     "location": "-942,46,-4227",
