@@ -33,7 +33,7 @@
   },
   "melon_teleporter": {
     "display": "Melon Teleporter",
-    "description": "Adds a teleporter that can only be used by the king and guards.",
+    "description": "Adds a teleporter that can only be used by the monarch and guards.",
     "price": 20,
     "currency": "coins",
     "location": "-953,45,-4251",
