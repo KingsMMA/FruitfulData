@@ -7,8 +7,8 @@
     "location": "-949,50,-4255",
     "requires": ["!greed"]
   },
-  "economics_room": {
-    "display": "Economics Room",
+  "economic_room": {
+    "display": "Economic Room",
     "description": "Unlocks three other upgrades in the castle.",
     "price": 10,
     "currency": "coins",
