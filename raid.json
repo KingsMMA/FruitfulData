@@ -74,7 +74,7 @@
   "impenetrable_defenses": {
     "display": "Impenetrable Defenses",
     "description": "Increases the tier of your raid armor.",
-    "price": 15000,
+    "price": 25000,
     "currency": "gold",
     "location": "-932,36,-4172",
     "requires": ["standard_issue_forges", "basic_armory", "grenade_stockpiles", "power_through", "thorough_defense", "stronger_blades", "gemstone_blades"]
