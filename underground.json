@@ -312,4 +312,5 @@
     "currency": "gold",
     "location": "-940,39,-4182",
     "requires": ["upgrade_town_depths"]
+  }
 }
