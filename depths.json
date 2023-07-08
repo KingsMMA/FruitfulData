@@ -5,7 +5,7 @@
     "price": 100,
     "currency": "coins",
     "location": "-922,22,-4199",
-    "requires": ["lift_restoration"]
+    "requires": ["depths_start"]
   },
   "farmland_acquisition": {
     "display": "Farmland Acquisition",
@@ -13,7 +13,7 @@
     "price": 1500,
     "currency": "gold",
     "location": "-918,22,-4202",
-    "requires": ["lift_restoration"]
+    "requires": ["depths_start"]
   },
   "even_quicker_trading": {
     "display": "Even Quicker Trading",
@@ -21,7 +21,7 @@
     "price": 2000,
     "currency": "gold",
     "location": "-914,28,-4196",
-    "requires": ["lift_restoration"]
+    "requires": ["depths_start"]
   },
   "luckier_day": {
     "display": "Luckier Day",
@@ -29,7 +29,7 @@
     "price": 3000,
     "currency": "gold",
     "location": "-915,28,-4196",
-    "requires": ["lift_restoration"]
+    "requires": ["depths_start"]
   },
   "value_duplication": {
     "display": "Value Duplication",
@@ -37,7 +37,7 @@
     "price": 4000,
     "currency": "gold",
     "location": "-919,28,-4196",
-    "requires": ["lift_restoration"]
+    "requires": ["depths_start"]
   },
   "double_duplication": {
     "display": "Double Duplication",
@@ -53,7 +53,7 @@
     "price": 3000,
     "currency": "gold",
     "location": "-922,28,-4202",
-    "requires": ["lift_restoration"]
+    "requires": ["depths_start"]
   },
   "triple_city_funding": {
     "display": "Triple City Funding",
@@ -61,7 +61,7 @@
     "price": 4000,
     "currency": "gold",
     "location": "-921,28,-4202",
-    "requires": ["lift_restoration"]
+    "requires": ["depths_start"]
   },
   "dual_polishing_measures": {
     "display": "Dual-Polishing Measures",
@@ -69,7 +69,7 @@
     "price": 3000,
     "currency": "gold",
     "location": "-920,28,-4202",
-    "requires": ["lift_restoration"]
+    "requires": ["depths_start"]
   },
   "upgrade_town_east": {
     "display": "Upgrade Town",

@@ -206,7 +206,7 @@
   "depths_start": {
     "path": "depths",
     "display": "Lift Restoration",
-    "description": "Repairs the lift down into the depths, but reduces melon per melon by 2.",
+    "description": "Repairs the lift down into the depths, but reduces melons per melon by 2.",
     "price": 7000,
     "currency": "gold",
     "location": "-939,39,-4182",
