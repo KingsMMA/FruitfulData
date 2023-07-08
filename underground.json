@@ -144,7 +144,7 @@
     "price": 500,
     "currency": "gold",
     "location": "-938,39,-4192",
-    "requires": ["destroy_wall_1"]
+    "requires": ["destroy_wall_1", "upgrade_town_center"]
   },
   "market_manipulation": {
     "display": "Market Manipulation",
@@ -152,7 +152,7 @@
     "price": 50,
     "currency": "coins",
     "location": "-949,37,-4191",
-    "requires": ["destroy_wall_1"]
+    "requires": ["destroy_wall_1", "upgrade_town_center"]
   },
   "projectile_proofing": {
     "display": "Projectile Proofing",
@@ -160,7 +160,7 @@
     "price": 100,
     "currency": "coins",
     "location": "-949,37,-4192",
-    "requires": ["destroy_wall_1"]
+    "requires": ["destroy_wall_1", "upgrade_town_center"]
   },
   "light_based_growth_spurts": {
     "display": "Light-Based Growth Spurts",
@@ -168,7 +168,7 @@
     "price": 50,
     "currency": "coins",
     "location": "-949,37,-4193",
-    "requires": ["destroy_wall_1"]
+    "requires": ["destroy_wall_1", "upgrade_town_center"]
   },
   "upgrade_town_depths": {
     "display": "Upgrade Town",
@@ -176,7 +176,7 @@
     "price": 325,
     "currency": "gold",
     "location": "-937,39,-4185",
-    "requires": ["destroy_wall_1"],
+    "requires": ["destroy_wall_1", "upgrade_town_center"],
     "has_duplicate_names": true
   },
   "richer_metals": {
@@ -209,7 +209,7 @@
     "price": 325,
     "currency": "gold",
     "location": "-930,39,-4192",
-    "requires": ["destroy_wall_1"],
+    "requires": ["destroy_wall_1", "upgrade_town_center"],
     "has_duplicate_names": true
   },
   "what_shines_bright": {
@@ -258,7 +258,7 @@
     "price": 325,
     "currency": "gold",
     "location": "-937,39,-4199",
-    "requires": ["destroy_wall_1"],
+    "requires": ["destroy_wall_1", "upgrade_town_center"],
     "has_duplicate_names": true
   },
   "upgrade_town_teleporter": {
@@ -293,7 +293,7 @@
     "price": 100,
     "currency": "gold",
     "location": "-925,38,-4202",
-    "requires": ["destroy_wall_2"]
+    "requires": ["destroy_wall_2", "upgrade_town_raid"]
   },
   "start_raid": {
     "path": "raid",
@@ -302,6 +302,6 @@
     "price": 4000,
     "currency": "gold",
     "location": "-924,37,-4204",
-    "requires": ["destroy_wall_2"]
+    "requires": ["destroy_wall_2", "upgrade_town_raid"]
   }
 }
