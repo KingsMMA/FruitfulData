@@ -65,7 +65,7 @@
   },
   "dual_polishing_measures": {
     "display": "Dual-Polishing Measures",
-    "description": "Banking gold banks O.5 more gold.",
+    "description": "Banking gold banks 0.5 more gold.",
     "price": 3000,
     "currency": "gold",
     "location": "-920,28,-4202",
@@ -360,6 +360,6 @@
     "price": 1000000000,
     "currency": "gold",
     "location": "-947,21,-4191",
-    "requires": ["better_farmers", "a_little_richer", "septuple_city_funding", "fullest_farmland", "octuple_city_funding", "true_value", "ultimate_exponential", "flawless_extraction", "one_billion_gold"]
+    "requires": ["better_farmers", "a_little_richer", "septuple_city_funding", "fullest_farmland", "octuple_city_funding", "true_value", "ultimate_exponential", "flawless_extraction"]
   }
 }
