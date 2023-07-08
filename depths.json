@@ -1,0 +1,365 @@
+{
+  "warrant_funding": {
+    "display": "Warrant Funding",
+    "description": "Allows the monarch and guards to enter the black market.",
+    "price": 100,
+    "currency": "coins",
+    "location": "-922,22,-4199",
+    "requires": ["depths_start"]
+  },
+  "farmland_acquisition": {
+    "display": "Farmland Acquisition",
+    "description": "Unlocks a farm in the depths.",
+    "price": 1500,
+    "currency": "gold",
+    "location": "-918,22,-4202",
+    "requires": ["depths_start"]
+  },
+  "even_quicker_trading": {
+    "display": "Even Quicker Trading",
+    "description": "Quicker Trading is now 400% faster.",
+    "price": 2000,
+    "currency": "gold",
+    "location": "-914,28,-4196",
+    "requires": ["depths_start"]
+  },
+  "luckier_day": {
+    "display": "Luckier Day",
+    "description": "Selling melons now gives an additional gold.",
+    "price": 3000,
+    "currency": "gold",
+    "location": "-915,28,-4196",
+    "requires": ["depths_start"]
+  },
+  "value_duplication": {
+    "display": "Value Duplication",
+    "description": "The additional gold multiplier is increased by 1.",
+    "price": 4000,
+    "currency": "gold",
+    "location": "-919,28,-4196",
+    "requires": ["depths_start"]
+  },
+  "double_duplication": {
+    "display": "Double Duplication",
+    "description": "The additional gold multiplier is increased by 1.",
+    "price": 6500,
+    "currency": "gold",
+    "location": "-920,28,-4196",
+    "requires": ["value_duplication"]
+  },
+  "better_negotiations": {
+    "display": "Better Negotiations",
+    "description": "Banking gold banks 0.5 more gold.",
+    "price": 3000,
+    "currency": "gold",
+    "location": "-922,28,-4202",
+    "requires": ["depths_start"]
+  },
+  "triple_city_funding": {
+    "display": "Triple City Funding",
+    "description": "Gold put into the city bank is now worth three times as much.",
+    "price": 4000,
+    "currency": "gold",
+    "location": "-921,28,-4202",
+    "requires": ["depths_start"]
+  },
+  "dual_polishing_measures": {
+    "display": "Dual-Polishing Measures",
+    "description": "Banking gold banks 0.5 more gold.",
+    "price": 3000,
+    "currency": "gold",
+    "location": "-920,28,-4202",
+    "requires": ["depths_start"]
+  },
+  "upgrade_town_east": {
+    "display": "Upgrade Town",
+    "description": "Opens a new area in the Depths.",
+    "price": 50000,
+    "currency": "gold",
+    "location": "-913,22,-4188",
+    "requires": ["warrant_funding", "farmland_acquisition", "even_quicker_trading", "luckier_day", "value_duplication", "double_duplication", "better_negotiations", "triple_city_funding", "dual_polishing_measures"],
+    "has_duplicate_names": true
+  },
+  "blacklight_photosynthesis": {
+    "display": "Blacklight Photosynthesis",
+    "description": "The farm in the depths is now 60% faster.",
+    "price": 100,
+    "currency": "coins",
+    "location": "-910,21,-4179",
+    "requires": ["upgrade_town_east"]
+  },
+  "farmland_expansion": {
+    "display": "Farmland Expansion",
+    "description": "Expands the farm in the depths.",
+    "price": 15000,
+    "currency": "gold",
+    "location": "-906,23,-4180",
+    "requires": ["upgrade_town_east"]
+  },
+  "greed_is_good": {
+    "display": "Greed Is Good",
+    "description": "The additional gold multiplier is increased by 1.",
+    "price": 20000,
+    "currency": "gold",
+    "location": "-906,24,-4177",
+    "requires": ["upgrade_town_east"]
+  },
+  "exponential_scaling": {
+    "display": "Exponential Scaling",
+    "description": "The additional gold multiplier is increased by 1.",
+    "price": 20000,
+    "currency": "gold",
+    "location": "-908,24,-4175",
+    "requires": ["upgrade_town_east"]
+  },
+  "quadruple_city_funding": {
+    "display": "Quadruple City Funding",
+    "description": "Gold put into the city bank is now worth four times as much.",
+    "price": 15000,
+    "currency": "gold",
+    "location": "-911,23,-4175",
+    "requires": ["upgrade_town_east"]
+  },
+  "expert_economists": {
+    "display": "Expert Economists",
+    "description": "Banking gold banks 0.75 more gold.",
+    "price": 8000,
+    "currency": "gold",
+    "location": "-916,22,-4177",
+    "requires": ["upgrade_town_east"]
+  },
+  "underground_trade_routes": {
+    "display": "Underground Trade Routes",
+    "description": "Selling gold in The Beneath will also fund the city bank with an amount equal to 50% the amount sold.",
+    "price": 10000,
+    "currency": "gold",
+    "location": "-916,22,-4178",
+    "requires": ["upgrade_town_east"]
+  },
+  "extrinsic_value": {
+    "display": "Extrinsic Value",
+    "description": "Banking gold banks 0.75 more gold.",
+    "price": 8000,
+    "currency": "gold",
+    "location": "-916,22,-4179",
+    "requires": ["upgrade_town_east"]
+  },
+  "upgrade_town_north": {
+    "display": "Upgrade Town",
+    "description": "Opens a new area in the Depths.",
+    "price": 150000,
+    "currency": "gold",
+    "location": "-933,21,-4194",
+    "requires": ["blacklight_photosynthesis", "farmland_expansion", "greed_is_good", "exponential_scaling", "quadruple_city_funding", "expert_economists", "underground_trade_routes", "extrinsic_value"],
+    "has_duplicate_names": true
+  },
+  "melon_to_melon_ratio": {
+    "display": "Melon To Melon Ratio",
+    "description": "Melons drop an additional melon per melon.",
+    "price": 100,
+    "currency": "coins",
+    "location": "-933,22,-4208",
+    "requires": ["upgrade_town_north"]
+  },
+  "insider_knowledge": {
+    "display": "Insider Knowledge",
+    "description": "Banking gold banks 1 more gold.",
+    "price": 70000,
+    "currency": "gold",
+    "location": "-938,22,-4202",
+    "requires": ["upgrade_town_north"]
+  },
+  "value_incrementation": {
+    "display": "Value Incrementation",
+    "description": "Banking gold banks 1 more gold.",
+    "price": 70000,
+    "currency": "gold",
+    "location": "-938,22,-4204",
+    "requires": ["upgrade_town_north"]
+  },
+  "the_house_always_wins": {
+    "display": "The House Always Wins",
+    "description": "The additional gold multiplier is increased by 1.",
+    "price": 85000,
+    "currency": "gold",
+    "location": "-934,24,-4211",
+    "requires": ["upgrade_town_north"]
+  },
+  "quintuple_city_funding": {
+    "display": "Quintuple City Funding",
+    "description": "Gold put into the city bank is now worth five times as much.",
+    "price": 100000,
+    "currency": "gold",
+    "location": "-933,24,-4211",
+    "requires": ["upgrade_town_north"]
+  },
+  "multiply_demand": {
+    "display": "Multiply Demand",
+    "description": "The additional gold multiplier is increased by 1.",
+    "price": 85000,
+    "currency": "gold",
+    "location": "-932,24,-4211",
+    "requires": ["upgrade_town_north"]
+  },
+  "quantum_fluctuations": {
+    "display": "Quantum Fluctuations",
+    "description": "Gold value is increased by a random, though small, amount.",
+    "price": 70000,
+    "currency": "gold",
+    "location": "-928,22,-4204",
+    "requires": ["upgrade_town_north"]
+  },
+  "farming_permits": {
+    "display": "Farming Permits",
+    "description": "Expands the farm in the depths.",
+    "price": 70000,
+    "currency": "gold",
+    "location": "-928,24,-4202",
+    "requires": ["upgrade_town_north"]
+  },
+  "upgrade_town_south": {
+    "display": "Upgrade Town",
+    "description": "Opens a new area in the Depths.",
+    "price": 450000,
+    "currency": "gold",
+    "location": "-927,22,-4172",
+    "requires": ["melon_to_melon_ratio", "insider_knowledge", "value_incrementation", "the_house_always_wins", "quintuple_city_funding", "multiply_demand", "quantum_fluctuations", "farming_permits"],
+    "has_duplicate_names": true
+  },
+  "tri_polishing_process": {
+    "display": "Tri-Polishing Process",
+    "description": "The additional gold multiplier is increased by 2.",
+    "price": 250000,
+    "currency": "gold",
+    "location": "-921,21,-4165",
+    "requires": ["upgrade_town_south"]
+  },
+  "sextuple_city_funding": {
+    "display": "Sextuple City Funding",
+    "description": "Gold put into the city bank is now worth six times as much.",
+    "price": 300000,
+    "currency": "gold",
+    "location": "-920,21,-4161",
+    "requires": ["upgrade_town_south"]
+  },
+  "repeated_multiplication": {
+    "display": "Repeated Multiplication",
+    "description": "The additional gold multiplier is increased by 2.",
+    "price": 250000,
+    "currency": "gold",
+    "location": "-921,21,-4157",
+    "requires": ["upgrade_town_south"]
+  },
+  "farmland_reclamation": {
+    "display": "Farmland Reclamation",
+    "description": "Expands the farm in the depths.",
+    "price": 200000,
+    "currency": "gold",
+    "location": "-934,21,-4157",
+    "requires": ["upgrade_town_south"]
+  },
+  "the_foundry": {
+    "display": "The Foundry",
+    "description": "Spawns a merchant that allows the selling of all your gold simultaneously.",
+    "price": 250000,
+    "currency": "gold",
+    "location": "-935,21,-4161",
+    "requires": ["upgrade_town_south"]
+  },
+  "perfect_profits": {
+    "display": "Perfect Profits",
+    "description": "Banking gold banks 1.25 more gold.",
+    "price": 200000,
+    "currency": "gold",
+    "location": "-934,21,-4165",
+    "requires": ["upgrade_town_south"]
+  },
+  "we_need_to_go_deeper": {
+    "display": "We Need To Go Deeper",
+    "description": "Unlocks the ending, as well as a room with incredibly expensive upgrades.",
+    "price": 1000000,
+    "currency": "gold",
+    "location": "-927,21,-4153",
+    "requires": ["tri_polishing_process", "sextuple_city_funding", "repeated_multiplication", "farmland_reclamation", "the_foundry", "perfect_profits"]
+  },
+  "final_funding": {
+    "display": "Final Funding",
+    "description": "You win.",
+    "price": 100,
+    "currency": "coins",
+    "location": "-928,21,-4153",
+    "requires": ["we_need_to_go_deeper"]
+  },
+  "better_farmers": {
+    "display": "Better Farmers",
+    "description": "Breaking melons also breaks adjacent melons.",
+    "price": 5000000,
+    "currency": "gold",
+    "location": "-944,21,-4189",
+    "requires": ["we_need_to_go_deeper"]
+  },
+  "a_little_richer": {
+    "display": "A Little Richer",
+    "description": "Banking gold banks 2 more gold, and the additional gold multiplier is increased by 2.",
+    "price": 10000000,
+    "currency": "gold",
+    "location": "-945,21,-4189",
+    "requires": ["we_need_to_go_deeper"]
+  },
+  "septuple_city_funding": {
+    "display": "Septuple City Funding",
+    "description": "Gold put into the city bank is now worth seven times as much.",
+    "price": 20000000,
+    "currency": "gold",
+    "location": "-946,21,-4189",
+    "requires": ["we_need_to_go_deeper"]
+  },
+  "fullest_farmland": {
+    "display": "Fullest Farmland",
+    "description": "Expands the depths farm to its maximum size.",
+    "price": 50000000,
+    "currency": "gold",
+    "location": "-946,20,-4190",
+    "requires": ["we_need_to_go_deeper"]
+  },
+  "octuple_city_funding": {
+    "display": "Octuple City Funding",
+    "description": "Gold put into the city bank is now worth eight times as much.",
+    "price": 100000000,
+    "currency": "gold",
+    "location": "-946,21,-4193",
+    "requires": ["we_need_to_go_deeper"]
+  },
+  "true_value": {
+    "display": "True Value",
+    "description": "Banking gold banks 2 more gold, and the additional gold multiplier is increased by 2.",
+    "price": 200000000,
+    "currency": "gold",
+    "location": "-945,21,-4193",
+    "requires": ["we_need_to_go_deeper"]
+  },
+  "ultimate_exponential": {
+    "display": "Ultimate Exponential",
+    "description": "All gold is now worth twice as much, applied after other multipliers.",
+    "price": 400000000,
+    "currency": "gold",
+    "location": "-944,21,-4193",
+    "requires": ["we_need_to_go_deeper"]
+  },
+  "flawless_extraction": {
+    "display": "Flawless Extraction",
+    "description": "Melons drop 1-2 extra melons per melon.",
+    "price": 700000000,
+    "currency": "gold",
+    "location": "-944,20,-4192",
+    "requires": ["we_need_to_go_deeper"]
+  },
+  "one_billion_gold": {
+    "display": "One Billion Gold",
+    "description": "Selling melons now gives an additional gold.",
+    "price": 1000000000,
+    "currency": "gold",
+    "location": "-947,21,-4191",
+    "requires": ["better_farmers", "a_little_richer", "septuple_city_funding", "fullest_farmland", "octuple_city_funding", "true_value", "ultimate_exponential", "flawless_extraction"]
+  }
+}

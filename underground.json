@@ -203,6 +203,15 @@
     "location": "-938,38,-4181",
     "requires": ["upgrade_town_depths", "!hardmode"]
   },
+  "depths_start": {
+    "path": "depths",
+    "display": "Lift Restoration",
+    "description": "Repairs the lift down into the depths, but reduces melons per melon by 2.",
+    "price": 7000,
+    "currency": "gold",
+    "location": "-939,39,-4182",
+    "requires": ["upgrade_town_depths"]
+  },
   "upgrade_town_farm": {
     "display": "Upgrade Town",
     "description": "Opens a new area with a few new upgrades.",
@@ -303,14 +312,5 @@
     "currency": "gold",
     "location": "-924,37,-4204",
     "requires": ["destroy_wall_2", "upgrade_town_raid"]
-  },
-  "depths_start": {
-    "path": "depths",
-    "display": "Lift Restoration",
-    "description": "Repairs the lift down into the depths, but reduces melon per melon by 2.",
-    "price": 7000,
-    "currency": "gold",
-    "location": "-940,39,-4182",
-    "requires": ["upgrade_town_depths"]
   }
 }
