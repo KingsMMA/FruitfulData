@@ -296,6 +296,7 @@
     "requires": ["destroy_wall_2"]
   },
   "start_raid": {
+    "path": "raid",
     "display": "Start Raid",
     "description": "Begins the raid.",
     "price": 4000,
