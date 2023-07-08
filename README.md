@@ -6,5 +6,5 @@ For information about contributing, see [here](https://github.com/KingsMMA/Fruit
 All contributions are greatly appreciated.
 
 ## License
-The upgrade data is dsistributed under the MIT license.  
+The upgrade data is distributed under the MIT license.  
 For more information, see [here](https://github.com/KingsMMA/FruitfulData/blob/master/LICENSE).
