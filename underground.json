@@ -304,7 +304,7 @@
     "location": "-925,38,-4202",
     "requires": ["destroy_wall_2", "upgrade_town_raid"]
   },
-  "start_raid": {
+  "raid_start": {
     "path": "raid",
     "display": "Start Raid",
     "description": "Begins the raid.",
