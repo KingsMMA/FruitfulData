@@ -43,7 +43,7 @@
     "display": "Quicker Studies",
     "description": "Decreases the effort needed to form a hypothesis by 8.",
     "price": 5,
-    "currency": "science_physics",
+    "currency": "research_physics",
     "location": "-924,42,-4265",
     "requires": ["scientific_method"]
   },
@@ -51,7 +51,7 @@
     "display": "Chemical Reactions",
     "description": "Reduces the time needed to stabilize the sample.",
     "price": 10,
-    "currency": "science_physics",
+    "currency": "research_physics",
     "location": "-922,42,-4264",
     "requires": ["scientific_method"]
   },
@@ -59,7 +59,7 @@
     "display": "Cheaper Methods",
     "description": "Reduces the cost for funding by 2 coins.",
     "price": 15,
-    "currency": "science_physics",
+    "currency": "research_physics",
     "location": "-922,42,-4262",
     "requires": ["scientific_method"]
   },
@@ -67,7 +67,7 @@
     "display": "To Infinity And Beyond",
     "description": "Summons a giant planetoid in the sky, along with a teleport pad to get there.",
     "price": 40,
-    "currency": "science_physics",
+    "currency": "research_physics",
     "location": "-924,42,-4261"
   },
   "increased_melon_values": {
@@ -82,7 +82,7 @@
     "display": "Automated Funding",
     "description": "Occasionally puts bank gold into the city bank, and passively generates funding and samples.",
     "price": 5,
-    "currency": "science_society",
+    "currency": "research_society",
     "location": "-928,42,-4256",
     "requires": ["scientific_method"]
   },
@@ -90,7 +90,7 @@
     "display": "Fast Footed",
     "description": "Gives everyone permanent Speed I while inside the main farm.",
     "price": 10,
-    "currency": "science_society",
+    "currency": "research_society",
     "location": "-929,42,-4254"
   },
   "golden_boosters": {
@@ -105,7 +105,7 @@
     "display": "Faster Selling",
     "description": "Allows player to sneak while selling to quintuple speed.",
     "price": 5,
-    "currency": "science_society",
+    "currency": "research_society",
     "location": "-932,42,-4256",
     "requires": ["scientific_method"]
   },
@@ -121,7 +121,7 @@
     "display": "Calculator Core",
     "description": "Increases melons per melon by one and adds an approximate melon counter.",
     "price": 5,
-    "currency": "science_technology",
+    "currency": "research_technology",
     "location": "-936,42,-4261",
     "requires": ["scientific_method"]
   },
@@ -129,7 +129,7 @@
     "display": "Genome Sequencing",
     "description": "Increases farm speed by 50% and decreases effort needed for stabilization by 33%.",
     "price": 10,
-    "currency": "science_technology",
+    "currency": "research_technology",
     "location": "-938,42,-4262",
     "requires": ["scientific_method"]
   },
@@ -137,7 +137,7 @@
     "display": "Farm Rush",
     "description": "Adds an event you can trigger by donating gold to the farm.",
     "price": 5,
-    "currency": "science_technology",
+    "currency": "research_technology",
     "location": "-938,42,-4264",
     "requires": ["scientific_method"]
   },
@@ -145,7 +145,7 @@
     "display": "Science Team",
     "description": "Increases science from research by 1.",
     "price": 15,
-    "currency": "science_technology",
+    "currency": "research_technology",
     "location": "-936,42,-4265",
     "requires": ["scientific_method"]
   },
@@ -169,7 +169,7 @@
     "display": "Speedy Stabilizers",
     "description": "Reduces the time needed to stabilize the sample even further.",
     "price": 20,
-    "currency": "science_physics",
+    "currency": "research_physics",
     "location": "-945,144,-4247",
     "requires": ["to_infinity_and_beyond"]
   },
@@ -177,7 +177,7 @@
     "display": "Quick Thinkers",
     "description": "Decreases the effort needed to form a hypothesis by 8.",
     "price": 30,
-    "currency": "science_physics",
+    "currency": "research_physics",
     "location": "-945,144,-4246",
     "requires": ["to_infinity_and_beyond"]
   },
@@ -185,7 +185,7 @@
     "display": "Budget Cuts",
     "description": "Reduces the cost for funding by 3 coins.",
     "price": 40,
-    "currency": "science_physics",
+    "currency": "research_physics",
     "location": "-945,144,-4245",
     "requires": ["to_infinity_and_beyond"]
   },
@@ -193,7 +193,7 @@
     "display": "Better Farmers",
     "description": "Breaking melons will break all adjacent melons.",
     "price": 5,
-    "currency": "science_society",
+    "currency": "research_society",
     "location": "-945,144,-4239",
     "requires": ["to_infinity_and_beyond"]
   },
@@ -201,7 +201,7 @@
     "display": "Guaranteed Returns",
     "description": "Citizens are guaranteed to get gold from selling to the merchant, as well as getting more gold than usual.",
     "price": 10,
-    "currency": "science_society",
+    "currency": "research_society",
     "location": "-945,144,-4238",
     "requires": ["to_infinity_and_beyond"]
   },
@@ -209,7 +209,7 @@
     "display": "Double City Funding",
     "description": "Gold put into the city bank is now doubled.",
     "price": 5,
-    "currency": "science_society",
+    "currency": "research_society",
     "location": "-945,144,-4237",
     "requires": ["to_infinity_and_beyond"]
   },
@@ -217,7 +217,7 @@
     "display": "Faster Scribbling",
     "description": "The hypothesis sign can now be shift-clicked to quadruple speed.",
     "price": 20,
-    "currency": "science_technology",
+    "currency": "research_technology",
     "location": "-953,144,-4237",
     "requires": ["to_infinity_and_beyond"]
   },
@@ -225,7 +225,7 @@
     "display": "Stabilization Breakthrough",
     "description": "Stabilization efforts required reduced by 50%.",
     "price": 30,
-    "currency": "science_technology",
+    "currency": "research_technology",
     "location": "-953,144,-4238",
     "requires": ["to_infinity_and_beyond"]
   },
@@ -233,7 +233,7 @@
     "display": "Super Science",
     "description": "Increases science from research by 1.",
     "price": 40,
-    "currency": "science_technology",
+    "currency": "research_technology",
     "location": "-953,144,-4239",
     "requires": ["to_infinity_and_beyond"]
   },
